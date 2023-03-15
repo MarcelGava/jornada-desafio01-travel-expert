@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 250px;
+  text-align: center;
+
+  font-family: 'Cinzel', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 86px;
+
+  color: #151718;
+
+  background-image: url('https://i.ibb.co/ZN8Zk8X/background-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  height: 100vh;
+}
+
+
+h1 {
+  margin-bottom: 4px;
+}
+
+span {
+  color: rgba(219, 39, 119, 1);
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: rgba(44, 46, 47, 0.9);
+}
+
+.links {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links .link1 a {
+  color: rgba(21, 23, 24, 1);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.links .link2 a {
+  font-size: 20px;
+  line-height: 24px;
+  background: #db2777;
+  width: 202px;
+  height: 56px;
+  color: #ffffff;
+  border-radius: 80px;
+  padding: 16px 32px;
+}
